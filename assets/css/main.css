@@ -3730,3 +3730,16 @@
 			display: none; 
 		}
 	}
+
+
+
+.space-man {
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+	height: 300px;
+	width: auto;
+	opacity: 30%;
+	opacity: .1;
+}
+
