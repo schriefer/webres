@@ -3677,8 +3677,7 @@
 	}
 
 	.span-1-75 {
-		background: url("../../images/pic01.jpg") no-repeat center center fixed;
-		background-image: url("../../images/pic01.jpg");
+		background: url("../../images/pic01.jpg") no-repeat center;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -3719,10 +3718,10 @@
 	}
 
 	.name {
+		width: 100%;
+		text-align: center;
 		font-size: 120px;
 		position: fixed;
-		top: 150px;
-		right: 50px;
 		color: #ddd;
 		font-weight: bolder; 
 	}
@@ -3732,16 +3731,3 @@
 			display: none; 
 		}
 	}
-
-
-
-.space-man {
-	position: absolute;
-	bottom: 0px;
-	right: 10px;
-	height: 300px;
-	width: auto;
-	opacity: 30%;
-	opacity: .1;
-}
-
