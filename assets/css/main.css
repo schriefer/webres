@@ -3677,15 +3677,14 @@
 	}
 
 	.span-1-75 {
-		background: url("../../images/pic01.jpg") no-repeat center;
+		background: url("../../images/pic01.png") no-repeat center;
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;
 	}
 
 	@media only screen and (max-width: 737px) {
 		.span-1-75 {
-			background-image: url("../../images/pic01.jpg");
+			background-image: url("../../images/pic01.png");
 			background-size: cover;
 			background-position: 20% 20%;
 		}
