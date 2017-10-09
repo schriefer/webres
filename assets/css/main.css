@@ -3722,7 +3722,7 @@
 		font-size: 120px;
 		position: fixed;
 		top: 150px;
-		left: 100px;
+		right: 50px;
 		color: #ddd;
 		font-weight: bolder; 
 	}
