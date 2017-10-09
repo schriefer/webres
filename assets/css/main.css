@@ -3677,8 +3677,10 @@
 	}
 
 	.span-1-75 {
+		background: url("../../images/pic01.jpg") no-repeat center center fixed;
 		background-image: url("../../images/pic01.jpg");
 		background-size: cover;
+		background-repeat: no-repeat;
 		background-position: center;
 	}
 
