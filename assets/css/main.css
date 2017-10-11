@@ -3729,3 +3729,15 @@
 			display: none; 
 		}
 	}
+
+
+.bg-bullet {
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 737px) {
+		
+.bg-bullet {
+			font-size: 22px;
+		}
+	}
