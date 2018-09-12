@@ -214,7 +214,8 @@
 	}
 
 	body.is-loading:before {
-		-moz-transition: opacity 1s ease;
+		display: none !important;
+		/*-moz-transition: opacity 1s ease;
 		-webkit-transition: opacity 1s ease;
 		-ms-transition: opacity 1s ease;
 		transition: opacity 1s ease;
@@ -222,7 +223,7 @@
 		-webkit-transition-delay: 0.75s;
 		-ms-transition-delay: 0.75s;
 		transition-delay: 0.75s;
-		opacity: 0.25;
+		opacity: 0.25;*/
 	}
 
 	@media screen and (max-width: 736px) {
