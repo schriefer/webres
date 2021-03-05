@@ -758,7 +758,7 @@
 })(jQuery);
 
 function goTotop() {
-   window.scrollTo({top: 0, behavior: 'smooth'});
+    $('html, body').animate({scrollTop:0},'50');
 }
 
 
