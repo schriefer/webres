@@ -854,20 +854,51 @@
 	}
 
 	.image.filtered:after {
-		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
-		background-size: 128px 128px, auto;
-		-moz-pointer-events: none;
-		-webkit-pointer-events: none;
-		-ms-pointer-events: none;
-		pointer-events: none;
+		filter: grayscale(100%);
+		-webkit-filter: grayscale(100%);
 		content: '';
+		display: block;
+		height: 100%;
+		left: 0;
 		position: absolute;
 		top: 0;
-		left: 0;
 		width: 100%;
-		height: 100%;
-		opacity: 1;
-		z-index: 1;
+	}
+
+	/* Topdeka - Hot Pink/Red */
+	.panel:first-of-type .image.filtered.tinted:after {
+		background-color: rgba(255, 0, 128, 0.4);
+		mix-blend-mode: screen;
+	}
+
+	/* Time Off Travel - Cyan Blue */
+	.panel:nth-of-type(2) .image.filtered.tinted:after {
+		background-color: rgba(0, 255, 255, 0.4);
+		mix-blend-mode: screen;
+	}
+
+	/* Hawku - Neon Purple */
+	.panel:nth-of-type(3) .image.filtered.tinted:after {
+		background-color: rgba(200, 0, 255, 0.4);
+		mix-blend-mode: screen;
+	}
+
+	/* Affinity - Electric Cobalt */
+	.panel:nth-of-type(4) .image.filtered.tinted:after {
+		background-color: rgba(0, 64, 255, 0.4);
+		mix-blend-mode: screen;
+	}
+
+	/* Recovery Brands - Neon Yellow */
+	.panel:nth-of-type(5) .image.filtered.tinted:after {
+		background-color: rgba(255, 255, 0, 0.4);
+		mix-blend-mode: screen;
+	}
+
+	/* Weblisters - Neon Orange */
+	.panel:nth-of-type(6) .image.filtered.tinted:after {
+		background-color: rgba(255, 69, 0, 0.5);
+		mix-blend-mode: hard-light;
 	}
 
 	.image.filtered.tinted:after {
